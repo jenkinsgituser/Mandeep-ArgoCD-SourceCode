@@ -25,5 +25,5 @@ jobs:
       uses: docker/build-push-action@v3
       with:
         push: true
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/my-argocd-image:$(date +%s)  
+        tags: my-argocd-image:$(date +%s)  
       
